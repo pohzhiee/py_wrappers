@@ -89,6 +89,7 @@ set_property(TARGET test_module PROPERTY POSITION_INDEPENDENT_CODE ON)
 install(TARGETS test_module
         ARCHIVE DESTINATION lib
         LIBRARY DESTINATION lib/python${PYTHON_VERSION_MAJOR}.${PYTHON_VERSION_MINOR}/site-packages
+        RESOURCE DESTINATION resource
         RUNTIME DESTINATION bin
 )
 
@@ -121,6 +122,7 @@ set_property(TARGET forward_kinematics_py PROPERTY POSITION_INDEPENDENT_CODE ON)
 install(TARGETS forward_kinematics_py
         ARCHIVE DESTINATION lib
         LIBRARY DESTINATION lib/python${PYTHON_VERSION_MAJOR}.${PYTHON_VERSION_MINOR}/site-packages
+        RESOURCE DESTINATION resource
         RUNTIME DESTINATION bin
 )
 
