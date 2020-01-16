@@ -2,8 +2,8 @@
 // Created by pohzhiee on 29/10/19.
 //
 
-#ifndef BOOST_PY_WRAPPER_FORWARD_KINEMATICS_HPP
-#define BOOST_PY_WRAPPER_FORWARD_KINEMATICS_HPP
+#ifndef PY_WRAPPERS_FORWARD_KINEMATICS_HPP
+#define PY_WRAPPERS_FORWARD_KINEMATICS_HPP
 
 #include "kdl/tree.hpp"
 #include <string>
@@ -45,4 +45,4 @@ private:
 };
 
 
-#endif //BOOST_PY_WRAPPER_FORWARD_KINEMATICS_HPP
+#endif //PY_WRAPPERS_FORWARD_KINEMATICS_HPP
